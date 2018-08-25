@@ -87,6 +87,14 @@ nav li a {
     padding: 10px;
 }
 
+nav li a:hover {
+    border-bottom: 2px solid #ccc;
+}
+
+nav li a.active {
+    border-bottom: 2px solid #4aaaa5;
+}
+
 /*-------------Main Style-------------*/
 
 main {
@@ -121,10 +129,16 @@ footer {
 /*----------Portfolio Page----------*/
 
 .portfolio-item {
+    box-sizing: border-box;
     float: left;
+    height: 210px;
     margin-bottom: 30px;
     margin-right: 30px;
     position: relative;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolio-item .caption {
