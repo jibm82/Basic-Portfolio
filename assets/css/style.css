@@ -139,3 +139,41 @@ footer {
     right:0px;
     text-align: center;
 }
+
+/*------------Contact Page-----------*/
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group:hover label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #ccc;
+    border: 0px;
+    color:#fff;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: #4aaaa5;
+    cursor: pointer;
+}
