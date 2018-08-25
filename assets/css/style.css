@@ -117,3 +117,25 @@ footer {
     margin: 0px 20px 20px 0px;
     width: 180px;
 }
+
+/*----------Portfolio Page----------*/
+
+.portfolio-item {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.portfolio-item .caption {
+    background: #4aaaa5;
+    bottom: 20px;
+    color: #fff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    left: 0px;
+    padding: 15px;
+    position: absolute;
+    right:0px;
+    text-align: center;
+}
